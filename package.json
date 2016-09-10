@@ -1,0 +1,40 @@
+{
+  "name": "falcor-array",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Methods to mutate part of a falcor graph as if it was an array",
+  "license": "MIT",
+  "repository": "ajoslin/falcor-array",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "ajoslin.com"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "falcor",
+    "array",
+    "methods",
+    "mutate"
+  ],
+  "devDependencies": {
+    "falcor": "~0.1.17",
+    "falcor-lazy-model": "~3.0.1",
+    "standard": "^7.0.0",
+    "tape": "^4.0.0"
+  },
+  "files": [
+    "index.js",
+    "test.js"
+  ],
+  "dependencies": {
+    "assert": "~1.4.1",
+    "cast-array": "~1.0.1",
+    "dot-prop": "~4.0.0",
+    "queue-that-callback": "~1.0.0",
+    "symbol-key": "~1.0.0",
+    "xtend": "~4.0.1"
+  }
+}
