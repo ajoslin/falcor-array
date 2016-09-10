@@ -1,7 +1,7 @@
 {
   "name": "falcor-array",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Methods to mutate part of a falcor graph as if it was an array",
   "license": "MIT",
   "repository": "ajoslin/falcor-array",
